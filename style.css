@@ -1,0 +1,227 @@
+
+
+/* style header  */
+.container{
+    font-family: 'Slabo 27px', serif;
+}
+.head{
+    background-image: linear-gradient(to right, blue, yellow);
+    display: flex;
+    padding: 60px;
+    align-items: center;
+    font-family: 'Slabo 27px', serif;
+    
+}
+.head-div{
+    width: 50%;
+}
+.head:hover img{
+    transform: rotate(360deg);
+    transition:  5s ease-in;   
+}
+.head-title{
+    text-align: start;
+    color: white;
+    font-size: 50px;
+    margin: auto;
+}
+.image-head{
+    width: 80%;
+    height: 100%; 
+}
+
+/* style players  */
+.container{
+    margin-top: 20px;
+}
+
+.player-img{
+    width: 100%;
+}
+
+.players{
+    display: grid;
+   grid-template-columns:repeat(3, 1fr);
+   grid-gap: 20px;
+}
+
+.box-shadow{
+    box-shadow:5px 5px 5px 5px rgb(10, 60, 83);
+    border-radius: 10px;
+}
+
+.shadow-img{
+    padding: 10px;
+    
+}
+.shadow-img img{
+    border-radius: 10px;
+}
+
+.shadow-div{
+    padding: 10px;
+}
+
+.icon{
+    margin: 30px;
+}
+
+.fab{
+    width: 50px;
+    color: rgb(20, 79, 155);
+
+}
+
+
+
+.subscribe-part{
+    margin: 10px 0px 10px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    grid-gap: 20px;
+    background-color: black;
+    color: white;
+    padding-bottom: 10px;
+    
+}
+.best-design{
+    padding: 10px;
+}
+
+.links{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.input-text{
+    width: 50%;
+    padding: 5px 0px;
+    border-radius: 50px;
+}
+footer{
+    text-align: center;
+    background-color: green;
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px){
+    .head{
+        background-image: linear-gradient(to right, blue, yellow);
+        display: block;
+        padding: 60px;
+        align-items: center;
+        
+    }
+
+    .head:hover img{
+        transform: rotate(360deg);
+        transition:  5s ease-in;   
+    }
+    .head-title{
+        margin-bottom: 30px;
+    }
+    
+    .image-head{
+      width: 100%;
+    }
+    .players{
+        display: grid;
+        grid-template-columns:repeat(1, 1fr);
+        grid-gap: 20px;  
+    }
+    .subscribe-part{
+        margin: 10px 0px 10px 0px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        grid-gap: 20px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding-bottom: 10px;
+        
+    }
+    .foot-input{
+        margin-bottom: 20px;
+    }
+    .best-design{
+        padding: 10px;
+    }
+    
+    .links{
+        display: block;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 45px;
+    }
+    
+    .input-text{
+        width: 50%;
+        padding: 5px 0px;
+        border-radius: 50px;
+    }
+    footer{
+        background-color: green;
+        padding: 10px;
+    }
+   
+}
+@media screen and (max-width: 990px){
+    .head{
+        background-image: linear-gradient(to right, blue, yellow);
+        display: block;
+        padding: 60px;
+        align-items: center;
+        
+    }
+
+    .head:hover img{
+        transform: rotate(360deg);
+        transition:  5s ease-in;   
+    }
+    .head-title{
+        margin-bottom: 30px;
+    }
+    
+    .image-head{
+      width: 100%;
+    }
+    .players{
+        display: grid;
+        grid-template-columns:repeat(1, 1fr);
+        grid-gap: 20px;  
+    }
+    .subscribe-part{
+        margin: 10px 0px 10px 0px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        grid-gap: 20px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding-bottom: 10px;
+        
+    }
+    .foot-input{
+        margin-bottom: 20px;
+    }
+    .best-design{
+        padding: 10px;
+    }
+    
+    .links{
+        display: block;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 45px;
+    }
+    
+    .input-text{
+        width: 50%;
+        padding: 5px 0px;
+        border-radius: 50px;
+    }
+    footer{
+        background-color: green;
+        padding: 10px;
+    }
+}
